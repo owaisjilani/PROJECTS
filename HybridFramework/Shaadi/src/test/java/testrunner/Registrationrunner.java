@@ -20,7 +20,5 @@ public class Registrationrunner extends Base {
 		rs.verifyCommunity(input[1]);
 		System.out.println("Testing Ended");
 
-
-
 	}
 }

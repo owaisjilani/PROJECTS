@@ -78,7 +78,6 @@ public class Base {
 		JSONObject com=(JSONObject) obj;
 		JSONArray communityList = (JSONArray) com.get("shaadiCommunity");
 		String arr[]=new String[communityList.size()];
-
 		for(int i=0;i<communityList.size();i++)
 		{
 			JSONObject c=(JSONObject) communityList.get(i);
@@ -87,7 +86,6 @@ public class Base {
 			arr[i]=communityUrl+","+communityName;
 			//System.out.println(arr[i]);
 		}
-
 		return arr;
 
 	}
